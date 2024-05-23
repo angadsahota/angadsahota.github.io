@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angad Sahota's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #6a0dad;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #6a0dad;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #6a0dad;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Angad Sahota</h1>
+    <p>I am a student that likes to build legos.</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! My name is Angad Sahota. I am a student who loves to build legos. This is my personal webpage where I share my passion for lego building and other interesting things I do.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Blog Post Title</h3>
+            <p>Write your blog post here...</p>
+        </article>
+        <!-- Add more blog posts here -->
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Angad Sahota</p>
+</footer>
+
+</body>
+</html>
